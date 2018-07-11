@@ -1,4 +1,4 @@
-.default_color{background-color: #2196F3 !important}
+.default_color{background-color: #FBBF5C !important}
 
 .default_color_text{color: #2196F3 !important}
 
@@ -13,7 +13,7 @@
     min-height: 632px;
     max-height: 864px;
     position: relative;
-    background-color: #2196F3;
+    background-color: #FBBF5C;
 }
 
 #nav_f{
@@ -38,11 +38,11 @@
     letter-spacing: 7px;
 }
 
-.text_h2 {font-weight: 100;margin-bottom: 4%; line-height: 4.5rem;}
+.text_h2 {font-weight: 300;margin-bottom: 4%; line-height: 4.5rem; color:#FAD988;}
 
-.span_h2 {font-weight: 300;color: #2196F3;}
+.span_h2 {font-weight: 300;color: #FAD988;}
 
-.text_b{color: #2196F3;}
+.text_b{color: #FAD988;}
 
 .in{font-weight: 400 !important; font-style: normal !important;}
 
