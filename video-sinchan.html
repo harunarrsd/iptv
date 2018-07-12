@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+    <meta name="theme-color" content="#2196F3">
+    <title>IPTV</title>
+
+    <!-- CSS  -->
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/materialize.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body id="top" class="scrollspy">
+<!--Navigation-->
+ <div class="navbar-fixed">
+    <nav id="nav_f" class="default_color">
+        <div class="container">
+            <div class="nav-wrapper">
+            <a href="index.html" id="logo-container" class="brand-logo center">IPTV</a>
+<!--                 <ul class="right hide-on-med-and-down">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#vod">Video On Demand</a></li>
+                    <li><a href="#team">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul> -->
+<!--                 <ul id="nav-mobile" class="side-nav">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#vod">Video On Demand</a></li>
+                    <li><a href="#team">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul> -->
+            <!-- <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="mdi-navigation-menu"></i></a> -->
+            </div>
+        </div>
+    </nav>
+</div>
+
+<!--Home-->
+<div id="home" class="section scrollspy">
+    <div class="container">
+        <video autobuffer autoloop loop controls width="100%">
+            <source src="video/shinchan.mp4" type="video/mp4">
+            <!-- <object type="video/mp4" data="video/shinchan.mp4">
+            <param name="src" value="video/shinchan.mp4">
+            <param name="autoplay" value="false">
+            <param name="autoStart" value="0">
+            <p><a href="video/shinchan.mp4">Download this video file.</a></p>
+            </object> -->
+        </video>
+    </div>
+</div>
+
+<!--Footer-->
+<footer id="contact" class="page-footer default_color scrollspy">
+    <div class="footer-copyright default_color">
+        <div class="container">
+            © 2018 IPTV | All Rights Reserved | Made by <a class="white-text" href="#!">HERteam</a>.
+        </div>
+    </div>
+</footer>
+
+
+    <!--  Scripts-->
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.scrollspy').scrollSpy();
+            $('.button-collapse').sideNav({
+                closeOnClick:true
+            });
+        });
+    </script>
+</body>
+</html>
